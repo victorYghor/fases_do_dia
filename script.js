@@ -3,8 +3,8 @@ function carregar(){
 var msg = document.querySelector("div#msg")
 var img = document.getElementById('imagem')
 var data = new Date()
-// var hora = data.getHours()
-hora = 3
+var hora = data.getHours()
+
 var titulo = document.getElementById('h1')
 titulo.innerText =`${hora} horas`
 
